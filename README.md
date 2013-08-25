@@ -15,7 +15,7 @@ This technique allows you to add script blocks to a page, but not actually evalu
 Possible use cases:
 
 * Inline scripts that depend on asynchronously loaded external scripts.
-* Simultanious execution of multiple script blocks across template fragments without jQuery (just put `insync()` call at bottom of page)
+* Simultaneous execution of multiple script blocks across template fragments without jQuery (just put `insync()` call at bottom of page)
 * To be fancy...?
 
 ### How do you use it? ###
@@ -25,7 +25,7 @@ First, add the script, either by copy/pasting into your page (it's really tiny),
 Add your script blocks with the `text/plain` MIME type, such as:
 
     <script type="text/plain>
-      alert("Holy asynchronus Javascript, Batman!");
+      alert("Holy asynchronous Javascript, Batman!");
     </script>
     
 Then, just call `insync()` after those inline code blocks have been processed (i.e. either put the `insync()` call in 
@@ -36,7 +36,7 @@ a callback for the document loading, or at the bottom of your page).
 To the best of our knowledge, all of them. We've tested on current builds of Chrome, Firefox, iOS Safari, and Android, 
 and those all work perfectly.
 
-While not exaclty conventional, the technique seems to be standards compliant. And some sites, like LinkedIn, use a similar 
+While not exactly conventional, the technique seems to be standards compliant. And some sites, like LinkedIn, use a similar 
 technique (with a custom MIME type, which is arguably not standards compliant).
 
 ### Can you improve on it? ###
