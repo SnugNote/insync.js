@@ -31,6 +31,8 @@ Add your script blocks with the `text/plain` MIME type, such as:
 Then, just call `insync()` after those inline code blocks have been processed (i.e. either put the `insync()` call in 
 a callback for the document loading, or at the bottom of your page).
 
+**Note: Don't use on code blocks that contain a `document.write`**
+
 ### What browsers support it? ###
 
 To the best of our knowledge, all of them. We've tested on current builds of Chrome, Firefox, iOS Safari, and Android, 
