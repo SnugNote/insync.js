@@ -39,7 +39,7 @@ and those all work perfectly.
 While not exaclty conventional, the technique seems to be standards compliant. And some sites, like LinkedIn use a similar 
 technique (with a custom MIME type, which is arguably not standards compliant).
 
-### Can I improve on it? ###
+### Can you improve on it? ###
 
 Sure! It's a pretty bare bones script, and our JavaScript skills are far from perfect. There are also some 
 features that might improve it (though we don't plan to add in ourselves):
