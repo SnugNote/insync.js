@@ -1,4 +1,4 @@
-insync
+insync.js
 ======
 
 Asynchronous (Lazy-Loaded) Inline Javascript
