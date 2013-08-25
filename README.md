@@ -36,7 +36,7 @@ a callback for the document loading, or at the bottom of your page).
 To the best of our knowledge, all of them. We've tested on current builds of Chrome, Firefox, iOS Safari, and Android, 
 and those all work perfectly.
 
-While not exaclty conventional, the technique seems to be standards compliant. And some sites, like LinkedIn use a similar 
+While not exaclty conventional, the technique seems to be standards compliant. And some sites, like LinkedIn, use a similar 
 technique (with a custom MIME type, which is arguably not standards compliant).
 
 ### Can you improve on it? ###
