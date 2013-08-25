@@ -8,7 +8,7 @@ Asynchronous (Lazy-Loaded) Inline Javascript
 This is a very small script that rewrites `<script>` tags that have the MIME type of `text/plain` to tags that have 
 the MIME type `text/javascript`.
 
-### Why would I use it? ###
+### Why would you use it? ###
 
 This technique allows you to add script blocks to a page, but not actually evaluate them until a later point in time.
 
@@ -18,7 +18,7 @@ Possible use cases:
 * Simultanious execution of multiple script blocks across template fragments without jQuery (just put `insync()` call at bottom of page)
 * To be fancy...?
 
-### How do I use it? ###
+### How do you use it? ###
 
 First, add the script, either by copy/pasting into your page (it's really tiny), or linking externally.
 
