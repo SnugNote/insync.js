@@ -14,7 +14,7 @@ This technique allows you to add script blocks to a page, but not actually evalu
 
 Possible use cases:
 
-* Inline scripts that depend on asyncranously loaded external scripts.
+* Inline scripts that depend on asynchronously loaded external scripts.
 * Simultanious execution of multiple script blocks across template fragments without jQuery (just put `insync()` call at bottom of page)
 * To be fancy...?
 
