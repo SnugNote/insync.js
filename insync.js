@@ -1,3 +1,9 @@
+/*!
+  * insync.js Async (Lazy-Load) Inline JavaScript
+  * https://github.com/SnugNote/insync.js
+  * (c) 2013 SnugNote, LLC
+  * License: MIT
+  */
 var insync = function () {
   var elements = document.getElementsByTagName('script');
 
